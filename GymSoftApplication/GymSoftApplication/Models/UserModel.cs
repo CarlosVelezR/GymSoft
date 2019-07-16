@@ -10,5 +10,6 @@ namespace GymSoftApplication.Models
     {
         public int idUser { get; set; }
         public string userName { get; set; }
+        public string userType { get; set; }
     }
 }
