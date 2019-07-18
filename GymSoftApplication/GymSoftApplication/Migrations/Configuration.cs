@@ -9,7 +9,7 @@ namespace GymSoftApplication.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(GymSoftApplication.Models.UserContext context)
